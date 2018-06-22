@@ -27,12 +27,12 @@
 	<context:component-scan base-package="com.norteksoft.acs" />
 	<context:component-scan base-package="com.norteksoft.mms" />
 	<context:component-scan base-package="com.norteksoft.wf" />
-	<context:component-scan base-package="com.example.expense" />
+	<context:component-scan base-package="com.norteksoft.task" />
 	<context:component-scan base-package="com.norteksoft.bs" />
 	<context:component-scan base-package="com.norteksoft.tags.search" />
 	<context:component-scan base-package="com.norteksoft.product.orm.hibernate" />
 	
-	<context:component-scan base-package="com.train" />
+	<context:component-scan base-package="com.example.expense" />
 	
 	<aop:aspectj-autoproxy proxy-target-class="true"/>
 

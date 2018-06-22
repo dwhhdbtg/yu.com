@@ -9,7 +9,7 @@
 	<!-- 系统编码 -->
 	<context-param>
 		<param-name>systemCode</param-name>
-		<param-value>train</param-value>
+		<param-value>test</param-value>
 	</context-param>
 	
 	<filter>
@@ -164,7 +164,7 @@
 	
 	
 	 <!--Spring ApplicationContext jersey asm-3.1.jar,jersey-client-1.12.jar,jersey-core-1.12.jar,jersey-server-1.12.jar,jersey-servlet-1.12.jar,jettison-1.1.jar,jsr311-api-1.1.1.jar,jersey-spring-1.12.jar-->
-	<servlet>
+	<!-- <servlet>
 		<servlet-name>jersey-serlvet</servlet-name>
 		<servlet-class>com.sun.jersey.spi.spring.container.servlet.SpringServlet</servlet-class>
 		<init-param>
@@ -176,7 +176,7 @@
 	<servlet-mapping>
 		<servlet-name>jersey-serlvet</servlet-name>
 		<url-pattern>/rest/*</url-pattern>
-	</servlet-mapping>
+	</servlet-mapping> -->
 	<!--Spring ApplicationContext jersey -->
 	
 	<jsp-config>

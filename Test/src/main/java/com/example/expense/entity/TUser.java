@@ -7,11 +7,11 @@ import com.norteksoft.product.orm.IdEntity;
 
 @Entity
 @Table(name="t_user")
-public class User extends IdEntity{
+public class TUser extends IdEntity{
 	private static final long serialVersionUID = 1L;
 	
 	private String username;//用户姓名
-	private String sex;//用户年龄
+	private String sex;//用户性别
 	private Integer age;//用户年龄
 	public String getUsername() {
 		return username;
